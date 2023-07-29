@@ -5,10 +5,10 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
   }
-p{
+/* p{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
-}
+} */
 body{
     margin-left: 10%;
     margin-right: 10%;
@@ -16,12 +16,54 @@ body{
     margin-bottom: 5%;
 }
 
-/* trabajo en el div derecha */
+/* trabajo en el div arriba */
+.arriba{
+    display: flex;
+}
+
+/* trabajo en el div izquierda */
 .izquierda{
     background-color: bisque;
     width: 40%;
 }
 h1{
     font-family: 'Fraunces', serif;
+    color: #521E4F; 
+}
+.texto-iz{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* trabajo en el div derecha */
+.derecha{
+    width: 60%;
+    background-color: azure;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.puntuacion1, .puntuacion2, .puntuacion3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F7F2F8;
+    border-radius: 5%;
+}
+.puntuacion1{
+    margin-right: 20%;
+}
+.puntuacion2{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.puntuacion3{
+    margin-left: 20%;
+}
+.punto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     color: #521E4F;
+    font-weight: bold;
 }
