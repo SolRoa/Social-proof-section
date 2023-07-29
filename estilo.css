@@ -23,7 +23,6 @@ body{
 
 /* trabajo en el div izquierda */
 .izquierda{
-    background-color: bisque;
     width: 40%;
 }
 h1{
@@ -38,7 +37,6 @@ h1{
 /* trabajo en el div derecha */
 .derecha{
     width: 60%;
-    background-color: azure;
     margin-left: 10%;
     display: flex;
     flex-direction: column;
@@ -66,4 +64,54 @@ h1{
     font-size: 14px;
     color: #521E4F;
     font-weight: bold;
+}
+
+/* trabajo en el div abajo */
+.abajo{
+    display: flex;
+}
+.opinion1, .opinion2, .opinion3{
+    background-color: #521E4F;
+    margin: 1%;
+    border-radius: 5%;
+}
+.opinion1{
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+.opinion2{
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+.opinion3{
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+.todo-texto{
+    /* background-color: blue; */
+    margin: 10%;
+}
+.persona{
+    display: flex;
+}
+img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.nombre{
+    margin-bottom: -10px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+}
+.violeta{
+    color: #C9629F;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.texto{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
