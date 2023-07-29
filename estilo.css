@@ -2,7 +2,26 @@
     font-size: 11px;
     text-align: center;
   }
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
   }
-  
+p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* trabajo en el div derecha */
+.izquierda{
+    background-color: bisque;
+    width: 40%;
+}
+h1{
+    font-family: 'Fraunces', serif;
+    color: #521E4F;
+}
